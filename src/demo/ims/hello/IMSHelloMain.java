@@ -14,11 +14,20 @@ import java.sql.Timestamp;
 //
 // Invocation from IMS terminal:
 //
-// IMSJAVA John
+// IMSJAVA MSG1 JOHN
 //
-// Result:
-// Hello John, welcome to IMS Java World!
+// Output:
+// HI JOHN! HELLO FROM JAVA IN IMS WORLD!
 //
+// IMSJAVA MSG2 JOHN
+//
+// Output:
+// WELCOME JOHN! HELLOW FROM JAVA IN IMS WORLD!
+//
+// IMSJAVA MSG3 JOHN
+//
+// Output:
+// GREETINGS JOHN! HELLO FROM JAVA IN IMS WORLD!
 
 public class IMSHelloMain {
 	
