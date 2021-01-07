@@ -1,0 +1,13 @@
+**********************************************************************
+* Specify the location of Java native code (libT2DLI.so and           
+* libT2DLI_64.so) and Java Virtual Machine (JVM) installation.        
+*                                                                     
+* Note: If you need to add another path, the previous line should have
+* ':' to separate the paths and '>' as the continuation character.    
+**********************************************************************
+LIBPATH=>                                                             
+/usr/lpp/java/J8.0/bin/j9vm:>                                         
+/usr/lpp/java/J8.0/bin/:>                                             
+/shared/ims/ims15.1/lib:>                                             
+/shared/db2/base/lib                                                  
+*                                                                     

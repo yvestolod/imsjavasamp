@@ -1,0 +1,25 @@
+********************************************************************
+* Specify the profile that has environment settings and JVM options.
+* The following two JVM options are required.                       
+********************************************************************
+-Djava.class.path=>                                                 
+/shared/ims/ims15.1/imsjava/imsudb.jar:>                            
+/shared/ims/ims15.1/imsjava/imsutm.jar:>                            
+/shared/ims/apps/imsjavahello.jar:>                                 
+/shared/ims/apps/imsphone.jar:>                                     
+/shared/ims/apps/ibmjzos.jar:>                                      
+/shared/ims/apps/JavaSample.jar:>                                   
+/shared/db2/jdbc/classes/db2jcc.jar:>                               
+/shared/db2/jdbc/classes/db2jcc4.jar:>                              
+/shared/db2/jdbc/classes/db2jcc_license_cisuz.jar                   
+*                                                                   
+********************************************************************  
+* JVM options for heap size tuning.                                   
+********************************************************************  
+-Dibm.jvm.events.output=stdout                                        
+-Xgcpolicy:gencon                                                     
+-Xmx200m                                                              
+-Xms100m                                                              
+-Xmnx60m                                                              
+-Xmns20m                                                              
+-Xdump:java+heap+system:events=throw,filter=java/lang/OutOfMemoryError

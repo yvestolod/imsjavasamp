@@ -1,0 +1,17 @@
+* This is a mapping of PSB names to Java samples.                     
+* The Java samples are delivered in the samples.jar file.             
+* The location of this samples.jar file must be specified separately  
+* by the DFSJVMMS member in the shareable application classpath.      
+*                                                                     
+* PSB          Regions   Java programs                                
+* --------     -------   -------------                                
+* DFSIVP37     JMP       demo/ims/phonebook/Phonebook                 
+* IMSJAVA      JMP       demo/ims/hello/IMSHelloMain.class            
+**********************************************************************
+DFSIVP37=demo/ims/phonebook/Phonebook                                 
+*                                                                     
+**********************************************************************
+* This is a simple Hello World Java program for demo purposes         
+**********************************************************************
+IMSJAVA=demo/ims/hello/IMSHelloMain                                   
+*
