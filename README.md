@@ -1,3 +1,5 @@
 # IMS Java Hello World Sample
-This repository contains a sample Hello IMS Java program (JMP) to get started with Java programming in IMS.
+This repository contains sample programs to get started with Java programming in IMS.
+
+
 
