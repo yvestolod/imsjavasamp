@@ -1,7 +1,28 @@
 # IMS Java Samples
 This repository contains sample programs to get started with Java programming in IMS.
 
-![Diagram 1](https://github.com/yvestolod/imsjavasamp/blob/master/slides/Slide1.png)
-
-
-
+![Diagram 1](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide1.png)
+![Diagram 2](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide8.png)
+![Diagram 3](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide9.png)
+![Diagram 4](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide10.png)
+![Diagram 5](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide11.png)
+![Diagram 6](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide12.png)
+![Diagram 7](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide13.png)
+![Diagram 8](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide14.png)
+![Diagram 9](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide15.png)
+![Diagram 10](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide16.png)
+![Diagram 11](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide17.png)
+![Diagram 12](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide18.png)
+![Diagram 13](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide19.png)
+![Diagram 14](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide21.png)
+![Diagram 15](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide22.png)
+![Diagram 16](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide23.png)
+![Diagram 17](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide24.png)
+![Diagram 18](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide25.png)
+![Diagram 19](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide26.png)
+![Diagram 20](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide27.png)
+![Diagram 21](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide28.png)
+![Diagram 22](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide29.png)
+![Diagram 23](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide30.png)
+![Diagram 24](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide31.png)
+![Diagram 25](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide32.png
