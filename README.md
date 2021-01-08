@@ -25,4 +25,4 @@ This repository contains sample programs to get started with Java programming in
 ![Diagram 22](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide29.png)
 ![Diagram 23](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide30.png)
 ![Diagram 24](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide31.png)
-![Diagram 25](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide32.png
+![Diagram 25](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide32.png)
