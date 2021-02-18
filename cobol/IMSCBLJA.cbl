@@ -1,4 +1,4 @@
-BL dll,thread
+       CBL dll,thread
        IDENTIFICATION DIVISION.
        PROGRAM-ID.    IMSCBLJA RECURSIVE.
        AUTHOR.        YVES TOLOD.
