@@ -1,4 +1,4 @@
-# IMS Java Samples
+# IMS Java and COBOL calling Java Samples
 This repository contains sample programs to get started with Java programming in IMS. It provides a sample of a Java program running in a Java Message Processing region (JMP) and a COBOL program calling a Java class (MPP).
 
 ![Diagram 1](https://github.com/yvestolod/imsjavasamp/blob/main/slides/Slide1.png)
