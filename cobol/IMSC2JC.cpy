@@ -22,5 +22,5 @@
           05  OUT-LL              PIC S9(3) COMP VALUE +0.
           05  OUT-ZZ              PIC S9(3) COMP VALUE +0.
           05  OUT-JAVA-ARG        PIC X(20).
-          05  OUT-MESSAGE         PIC X(40).
+          05  OUT-MESSAGE         PIC X(60).
 
