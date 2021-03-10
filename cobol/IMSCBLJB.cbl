@@ -302,7 +302,7 @@
       ******************************************************************
        GET-JAVA-RESPONSE-STR.
 
-      * Get the length of the string returned from the Java call
+      * Get the length of the string returned by the Java call
            Call GetStringLength
                 using by value JNIEnvPtr
                       jString2
@@ -317,7 +317,7 @@
                Stop run
            End-if
 
-      * Get the string class object return from the Java call
+      * Get the string class object returned by the Java call
            Call GetStringChars
                 using by value JNIEnvPtr
                       jString2
