@@ -324,7 +324,7 @@
                       address of jboolean1
                 returning stringPtr
 
-      * Copy the string response to a return string place holder
+      * Copy the string response to a place holder so we can free it up
            SET ADDRESS OF stringRsp TO stringPtr
            INITIALIZE WS-RETURN-STR
 
