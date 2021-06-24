@@ -1,0 +1,25 @@
+      ******************************************************************
+      *                                                                *
+      * IMSCBLJC SAMPLE COPYBOOK                                       *
+      *                                                                *
+      * (c) Copyright IBM Corp. 2021 All Rights Reserved               *
+      *                                                                *
+      * US Government Users Restricted Rights - Use, duplication or    *
+      * disclosure restricted by GSA ADP Schedule Contract with IBM    *
+      * Corp                                                           *
+      *                                                                *
+      ******************************************************************
+      * DATA AREA FOR TERMINAL INPUT
+       01 INPUT-MSG.
+          05  IN-LL               PIC S9(3) COMP.
+          05  IN-ZZ               PIC S9(3) COMP.
+          05  IN-TRANCODE         PIC X(10).
+          05  IN-CLAIMTYPE        PIC X(10).
+          05  IN-CLAIMAMT         PIC X(10).
+      * DATA AREA FOR TERMINAL OUTPUT
+       01 OUTPUT-MSG.
+          05  OUT-LL              PIC S9(3) COMP VALUE +0.
+          05  OUT-ZZ              PIC S9(3) COMP VALUE +0.
+          05  OUT-CLAIMTYPE       PIC X(10).
+          05  OUT-CLAIMAMT        PIC X(10).
+          05  OUT-MESSAGE         PIC X(60).
