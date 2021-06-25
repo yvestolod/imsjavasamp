@@ -23,6 +23,8 @@ public class JavaRestClient {
     // This is the method that is called by the COBOL program
     public static String getClaimResult(String claimType, String claimAmount) {
     	
+        // Get the value of the REST API endpoint from the RESTURI and RESTPORT
+        // environment variables.  This should be set before calling this method.
     	String restEndpointURL = System.getenv("RESTURI").toLowerCase().trim();
     	String restEndpointPORT = System.getenv("RESTPORT").trim();
     	
