@@ -11,6 +11,8 @@ public class JavaRestClient {
 
     public static void main(String[] args) {
     	
+        // The following is for testing purposes only, the main method is
+        // not called by the COBOL program
     	String response = getClaimResult("MEDICAL", "199.99");
     	System.out.println("[" + response + "]");
     	
@@ -18,6 +20,7 @@ public class JavaRestClient {
     	System.out.println("[" + response + "]");
     }
     
+    // This is the method that is called by the COBOL program
     public static String getClaimResult(String claimType, String claimAmount) {
     	
     	String restEndpointURL = System.getenv("RESTURI").toLowerCase().trim();
@@ -37,16 +40,16 @@ public class JavaRestClient {
     	String output = null;
 
         try {
-        	// Create a neat value object to hold the URL
+        	// Create a URL object for the REST API Endpoint
         	URL url = new URL(httpEndpoint);
 
-        	// Open a connection(?) on the URL(?) and cast the response(??)
+        	// Open the connection to the REST API Endpoint
         	HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 
-        	// Now it's "open", we can set the request method, headers etc.
+        	// Set the properties, headers.
         	connection.setRequestProperty("accept", "application/json");
 
-        	// This line makes the request
+        	// Execute the actual HTTP request
         	InputStream responseStream = connection.getInputStream();
 
         	// Manually converting the response body InputStream to the Claims object using Jackson
