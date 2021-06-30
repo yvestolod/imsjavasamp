@@ -113,7 +113,7 @@
           05 IO-PCB-MOD-NAME        PIC X(8).
           05 IO-PCB-USER-ID         PIC X(8).
 
-       01 stringRsp                 pic N(0) usage national.
+       01 stringRsp                 pic N(50) usage national.
 
        COPY "JNI" SUPPRESS.
       ******************************************************************
